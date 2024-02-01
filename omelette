@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <head>
-  <title> Simple Omelette Recipe </title>
-body {background-color: lightpink;}
-h1   {color: burgandy;}
-p    {color: black;}
-div  {color: white;}
+ <title> Simple Omelette Recipe </title>
+<style>
+    body {background-color: lightpink;}
+    h1 {
+      color: darkred;
+      font-family: calibri;
+      font size: 24pt;
+    }
+    p  {
+      color: black;
+      font-family: calibri;
+      font size: 16pt;
+    }
+    div {
+      class: center;
+      color: white;
+
+    }
+</style>
 </head>
 
 <body>
 
-<div> class="center">
+  <div class="center">
      <img src="image-omelette.jpeg">
 <br>
 <h1 style="color: burgandy;"> <b> Simple Omelette Recipe </b> </h1>
@@ -56,7 +70,7 @@ div  {color: white;}
 <br>
   The table below shows nutritional values per serving without the additional fillings.
 </p>
-<table>
+<table class="center">
   <tr>
     <td>Calories</td>
     <td style="color: burgandy;"> <b>277kcal</b></td>
