@@ -2,7 +2,7 @@
 <head>
  <title> Simple Omelette Recipe </title>
 <style>
-    body {background-color: lavendarblush;}
+    body {background-color: lavenderblush;}
     h1 {
       color: maroon;
       font-family: calibri;
