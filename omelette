@@ -2,21 +2,32 @@
 <head>
  <title> Simple Omelette Recipe </title>
 <style>
-    body {background-color: lightpink;}
+    body {background-color: lavendarblush;}
     h1 {
-      color: darkred;
+      color: maroon;
       font-family: calibri;
       font size: 24pt;
+    }
+    h2 {
+      color: maroon;
+      font-family: calibri;
+      font size: 20pt;
+    }
+    h3 {
+      color: maroon;
+      font-family: calibri;
+      font size: 18pt;
     }
     p  {
       color: black;
       font-family: calibri;
       font size: 16pt;
+      font color: black;
     }
-    div {
-      class: center;
-      color: white;
-
+   div {
+     background-color: white;
+     width: 750px;
+     color: black;
     }
 </style>
 </head>
