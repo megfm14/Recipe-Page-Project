@@ -24,23 +24,29 @@
       font size: 16pt;
       font color: black;
     }
-   div {
+   .topdiv {
      background-color: white;
      width: 750px;
      color: black;
     }
+ .div2 {
+     color: lightgrey;
+     margin-left:10px;
+     margin-right: 10px;
+    }
+ 
 </style>
 </head>
 
 <body>
 
-  <div class="center">
+  <div class="topdiv">
      <img src="image-omelette.jpeg">
 <br>
 <h1 style="color: burgandy;"> <b> Simple Omelette Recipe </b> </h1>
   <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats. 
 </p>
-  <div style="color: lightgrey;"> 
+  <div style="color: lightgrey;" class="div2"> 
     <h3><b> Preparation Time </b></h3>
     <ul>  
       <li> <b> Total:</b> Approximately 10 Minutes</li>
